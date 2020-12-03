@@ -58,7 +58,7 @@ class CustomNavigator extends StatefulWidget {
 }
 
 class _CustomNavigatorState extends State<CustomNavigator>
-    implements WidgetsBindingObserver {
+    with WidgetsBindingObserver {
   GlobalKey<NavigatorState> _navigator;
 
   void _setNavigator() =>
